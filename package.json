@@ -1,0 +1,19 @@
+{
+  "name": "welcome-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start-server": "cd server && node server.js",
+    "start-client": "cd client && node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.4",
+    "google-protobuf": "^3.18.0-rc.2",
+    "grpc": "^1.24.11",
+    "readline": "^1.3.0"
+  }
+}
