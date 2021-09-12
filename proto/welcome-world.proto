@@ -1,0 +1,16 @@
+syntax = "proto3";
+package welcome;
+
+message WelcomeRequest {
+    string name = 1;
+}
+
+message WelcomeResponse {
+    string message = 1;
+}
+
+service WelcomeService {
+
+    // this service method needs to be implemented.
+    rpc greetUser(WelcomeRequest) returns (WelcomeResponse) {};
+}
